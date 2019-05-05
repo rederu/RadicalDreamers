@@ -132,3 +132,24 @@ body{
     color: rgb(156, 86, 20);
     font-weight: bold;
 }
+
+.resume span{
+    align-items: right;
+    text-color: darkgray;
+}
+
+.resume a{
+    padding-left:15px;
+    text-align: right;
+    color: rgb(156, 86, 20);
+}
+
+.fas{
+    color: rgb(156, 86, 20);
+    font-size: 2rem;
+    text-align: right;
+}
+
+.resume a:hover{
+    color: rgb(238, 232, 227);
+}
