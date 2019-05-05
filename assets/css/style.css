@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    
+    background: rgba(255, 183, 115, 0.288);
+    /*background-image: url("../img/alex-mao-573711-unsplash.jpg");*/
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    font-family: 'Great Vibes', bold, cursive;
+    font-size: 1.4rem;
+}
+
+.navbar-link{
+    font-size: 1.5rem;
+}
+
+.wrapper {
+    max-width: 100vw;
+    height: 93.5vh;
+    overflow: hidden;
+    /* max-width: 100%; */
+    margin: 0 auto;
+    /* max-width: 700px; */
+    display: flex;
+    
+}
+.navbar-nav{
+    display: flex;
+    place-items: center;
+    font-size: 1.6rem;
+}
+
+.mainInfo {
+    position:relative;
+    width: 700px;
+    /* background: rgb(255, 255, 255, 0.4);*/
+}
+
+.abouText {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-image: url("../img/square_bg.png");
+    background-color: rgba(223, 137, 57, 0.5);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.headMe {
+    font-family: 'Great Vibes', bold, cursive;
+    font-size: 4.5rem;
+    text-align: left;
+    font-weight: bolder;
+    margin-left: 5px;
+    margin-right: 25px;
+    color: white;
+    border-bottom: 2px solid white;
+    
+}
+
+.textMe {
+    padding-top: 15px;
+    text-align: justify;
+}
+
+.abouImg {
+    display: grid;
+    place-items: center;
+}
+
+.abouImg img {
+    border-radius: 50%;
+}
+
+.contactMe{
+    padding-top: 15px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.contactMe a{
+    color: rgb(156, 86, 20);
+}
+
+.fab{
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+.portfolio{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 30px;
+
+}
+
+.portfolio h1{
+    text-align: left;
+    font-size: 3.5rem;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.card-body{
+    text-align: center;
+    padding: 1px;
+    color: white;
+
+}
+
+
+.proj{
+    margin: 15px;
+}
+
+.git, .livedemo, .git a, .livedemo a{
+    padding-left: 2px;
+    text-align:center;
+    color: rgb(156, 86, 20);
+    font-weight: bold;
+}
