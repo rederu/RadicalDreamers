@@ -1,24 +1,24 @@
 html, body {
     height: 100%;
 }
-body{
+
+body {
     font-family: 'Rubik', sans-serif;
-    
-    background: rgba(255, 183, 115, 0.288);
-    /*background-image: url("../img/alex-mao-573711-unsplash.jpg");*/
+    /*    background: rgba(255, 183, 115, 0.288);*/
+    background-image: url("../img/squaresmall.png");
     /* Full height */
     /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    /*background-size: cover;*/
 }
 
-.navbar{
+.navbar {
     font-family: 'Great Vibes', bold, cursive;
     font-size: 1.4rem;
 }
 
-.navbar-link{
+.navbar-link {
     font-size: 1.5rem;
 }
 
@@ -30,16 +30,16 @@ body{
     margin: 0 auto;
     /* max-width: 700px; */
     display: flex;
-    
 }
-.navbar-nav{
+
+.navbar-nav {
     display: flex;
     place-items: center;
     font-size: 1.6rem;
 }
 
 .mainInfo {
-    position:relative;
+    position: relative;
     width: 700px;
     /* background: rgb(255, 255, 255, 0.4);*/
 }
@@ -59,11 +59,8 @@ body{
     font-size: 4.5rem;
     text-align: left;
     font-weight: bolder;
-    margin-left: 5px;
-    margin-right: 25px;
     color: white;
     border-bottom: 2px solid white;
-    
 }
 
 .textMe {
@@ -80,76 +77,77 @@ body{
     border-radius: 50%;
 }
 
-.contactMe{
+.contactMe {
     padding-top: 15px;
     display: grid;
     place-items: center;
     text-align: center;
 }
 
-.contactMe a{
+.contactMe a {
     color: rgb(156, 86, 20);
 }
 
-.fab{
+.fab {
     font-size: 2.5rem;
     padding: 2rem;
 }
 
-.portfolio{
+.portfolio {
     margin-top: 25px;
     margin-bottom: 50px;
     padding: 30px;
-
 }
 
-.portfolio h1{
+.portfolio h1 {
     text-align: left;
     font-size: 3.5rem;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
 }
 
-.card-body{
+.card-body {
     text-align: center;
     padding: 1px;
     color: white;
-
 }
 
-
-.proj{
+.proj {
     margin: 15px;
 }
 
-.git, .livedemo, .git a, .livedemo a{
+.git, .livedemo, .git a, .livedemo a {
     padding-left: 2px;
-    text-align:center;
+    text-align: center;
     color: rgb(156, 86, 20);
     font-weight: bold;
 }
 
-.resume span{
+.resume span {
     align-items: right;
     text-color: darkgray;
 }
 
-.resume a{
-    padding-left:15px;
+.resume a {
+    padding-left: 15px;
     text-align: right;
     color: rgb(156, 86, 20);
 }
 
-.fas{
+.fas {
     color: rgb(156, 86, 20);
     font-size: 2rem;
     text-align: right;
 }
 
-.resume a:hover{
+.resume a:hover {
     color: rgb(238, 232, 227);
+}
+
+nav {
+    font-size: 2rem;
 }
